@@ -1,0 +1,15 @@
+name: EZServerMusic
+version: ${project.version}
+main: tokyo.ini.plugin.id.ezservermusic.EZServerMusic
+api-version: 1.16
+load: STARTUP
+depend: [ LocalResourcePackHoster ]
+commands:
+  ez:
+    aliases: [ezservermusic]
+    description: EZ Server Music
+  music:
+    aliases: [ m ]
+    description: Music manager command
+  ezgui:
+    description: Internal command (For show GUI)

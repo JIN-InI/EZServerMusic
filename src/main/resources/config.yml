@@ -1,0 +1,17 @@
+Automatic:
+  #When start-up this plugin, encode all music files.
+  Start-upEncode: false
+  #When music was encoded, adding music to the queue automatically.
+  AddQueue: false
+  #Clear these automatically when this plugin shutdown logic.
+  Queue-Clear: true
+  OGG-Clear: false
+  Music-Clear: false
+#Downloading sound or video from Youtube is prohibited by Youtube's terms of use.
+#Use of this feature is at your own risk.
+#Also, due to changes in Youtube's specifications, this feature may suddenly become unavailable.
+#If you still want to use it, please change to true.
+Youtube-Downloader: false
+
+#Do not touch this
+Config-Version: 1
